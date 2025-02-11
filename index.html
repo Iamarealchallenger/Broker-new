@@ -40,6 +40,28 @@
             width: 100%;
         }
 
+        .form-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .form-container input {
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+            font-size: 16px;
+        }
+
+        .form-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+
         .section p {
             font-size: 18px;
         }
@@ -62,7 +84,7 @@
             <h1>Brokerlikni atigi 6 haftada oʻrganib, oyiga 1000$ + daromadga chiqing</h1>
             <p>Oʻzbekistonning N°1 brokeri Kamol Niyazov akademiyasining kursida 1-lotingizni yuting va 2024-yilda yuqori daromad qilib, maqsadlaringizga erishing.</p>
             <p>Vaqtni choʻzishni bas qilib, serdaromad sohani oʻrganish vaqti keldi!</p>
-            <button class="button" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScn3DxU3H4XyfuZRwRr6Yrhlq1P4s8b2uU1h5zIK3OdpJwbYg/viewform';">Serdaromad kasbni oʻrganish</button>
+            <button class="button" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSeYGV0MFGQSxTuYjq1U8V4yCpHFlmPQCLZbfzNKAX0Y7jLQ0w/viewform?usp=header'">Serdaromad kasbni oʻrganish</button>
         </div>
 
         <!-- Второй экран -->
@@ -74,7 +96,7 @@
                 <li>ishlab turgan sohangizda yaxshi maosh va kasbiy jihatdan oʻsish yoʻq, orzularingizga erishishni va yuqori daromad qilishni xohlaysiz.</li>
             </ul>
             <p>Ushbu muammolar sizga tanishmi?</p>
-            <button class="button" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScn3DxU3H4XyfuZRwRr6Yrhlq1P4s8b2uU1h5zIK3OdpJwbYg/viewform';">Ha, ularni hoziroq hal qilmoqchiman!</button>
+            <button class="button" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSeYGV0MFGQSxTuYjq1U8V4yCpHFlmPQCLZbfzNKAX0Y7jLQ0w/viewform?usp=header'">Ha, ularni hoziroq hal qilmoqchiman!</button>
         </div>
 
         <!-- Третий экран -->
@@ -86,42 +108,16 @@
                 <li>Erkin grafik — kuniga 3-4 soat uyingizda noutbuk bilan ishlash 1000$ + daromad qilish uchun yetarli boʻladi.</li>
             </ul>
             <p>Va nihoyat maqsadlaringizga erishishda yordam beradigan sohani egallashni istaysizmi?</p>
-            <button class="button" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScn3DxU3H4XyfuZRwRr6Yrhlq1P4s8b2uU1h5zIK3OdpJwbYg/viewform';">Brokerlikni oʻrganish</button>
+            <button class="button" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSeYGV0MFGQSxTuYjq1U8V4yCpHFlmPQCLZbfzNKAX0Y7jLQ0w/viewform?usp=header'">Brokerlikni oʻrganish</button>
         </div>
 
-        <!-- Четвертый экран -->
-        <div class="section">
-            <h2>Tayyormisiz?</h2>
-            <p>Sizga ajoyib yangiligimiz bor.</p>
-            <p>Brokerlikni oʻrganish uchun Oʻzbekistondagi eng samarali kursni, Oʻzbekistondagi eng malakali broker Kamol Niyazov akademiyasi siz uchun tayyorlab qoʻydi.</p>
-            <button class="button" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScn3DxU3H4XyfuZRwRr6Yrhlq1P4s8b2uU1h5zIK3OdpJwbYg/viewform';">Kursda oʻqishni xohlayman</button>
-        </div>
-
-        <!-- Пятый экран -->
-        <div class="section">
-            <h2>6 haftalik kurs davomida siz:</h2>
-            <ul>
-                <li>oʻzingizga mos tender va auksionlarni tanlash va ularda gʻolib chiqish;</li>
-                <li>hujjatlarni toʻgʻri tayyorlash;</li>
-                <li>yetkazib beruvchilarni Oʻzbekiston va chet davlatlardan topish;</li>
-                <li>Xitoy va boshqa davlatdagi yetkazib beruvchilar bilan toʻgʻri bitim tuzish;</li>
-                <li>Bojxona bilan ishlash;</li>
-                <li>Foydani va xarajatlarni bitim tuzishdan oldin toʻgʻri hisoblash;</li>
-                <li>brokerlik orqali daromad qilishning 3 usulini oʻrganasiz.</li>
-            </ul>
-        </div>
-
-        <!-- Шестой экран -->
-        <div class="section">
-            <h2>Kurs nima uchun tashkillashtirilgan?</h2>
-            <p>Bu dastur, kursni sotib uning ortidan soqqa qilish uchun tashkillashtirilgan dastur emas. Lekin sizda savol tugʻilishi mumkin — unda nimaga sohada ishlash oʻrniga kurs sotyapsiz?</p>
-            <p>Javob juda oddiy: bizga malakali brokerlar kerak. Kompaniyamiz brokerlar bilan hamkorlikda ishlab investitsiyalar kiritadi va kompaniyaga sohani mukammal egallagan brokerlar kerak. Ayni shu sababli oʻzimiz brokerlik kurslari tashkil qilib, malakali oʻquvchilarimizni ishga olamiz.</p>
-            <button class="button" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScn3DxU3H4XyfuZRwRr6Yrhlq1P4s8b2uU1h5zIK3OdpJwbYg/viewform';">Kursda oʻqib, siz bilan ishlamoqchiman</button>
-        </div>
-
-        <!-- Остальные экраны можно оставить без изменений, если нужно -->
+        <!-- Остальные экраны можно обновить аналогично -->
 
     </div>
+
+</body>
+</html>
+
 
 </body>
 </html>
